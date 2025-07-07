@@ -1,0 +1,33 @@
+
+#event-details{
+    padding: 10px 20px;
+    background-color: rgb(var(--background-color-1),0.6);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+    #event-details .form-field-value{
+        background-color: rgb(var(--background-color-3));
+    }
+
+#event-page{
+    flex:1 1;
+    min-height: 0px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+    #event-content{
+        flex:1 1;
+        min-height: 0px;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+#event-details-operations{
+    display: flex;
+    gap:30px;
+    padding: 10px 0px;
+    justify-content: center;
+}

@@ -1,0 +1,50 @@
+#applications-list{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+
+
+    #applications-list .application-item{
+        flex: 0 0 auto;
+        width: calc(33.3% - 10px);
+        position: relative;
+    }
+        #applications-list .application-item > a{
+            text-decoration: none;
+            color:white;
+        }
+    #delete-application{
+        position: absolute;
+        top:-5px;
+        right:-5px;
+    }
+
+
+.application-card{
+    display: flex;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    gap:10px;
+}
+    .application-card-image{
+        width: 80px;
+        border-radius: 100px;
+    }
+    .application-card-content{
+        border-radius: 5px;
+        background-color: rgb(var(--background-color-1));
+        flex:1;
+        display: flex;
+        padding: 10px;
+
+        flex-direction: column;
+        gap:10px;
+    }
+        .application-card-name,
+        .application-card-description{
+            padding: 4px 8px;
+            border-radius: 4px;
+            background-color: rgb(var(--background-color-3));
+        }

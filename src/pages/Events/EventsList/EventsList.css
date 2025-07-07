@@ -1,0 +1,66 @@
+#events-list{
+    width: 100%;
+
+}
+    #events-list-headers{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+
+        border-bottom: 2px solid rgba(255, 255, 255, 0.098);
+        margin-bottom: 10px;
+    }
+        .events-list-header{
+            text-transform: uppercase;
+            font-weight: 800;
+            letter-spacing: 2px;
+            flex: 1 1;
+            font-size: 11px;
+        }
+        
+    #events-list{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+    }
+
+    #events-list .event{
+        display: flex;
+        align-items: center;
+        background-color: rgb(var(--background-color-1) ,0.6);
+        padding: 10px;
+        border-radius: 5px;
+        width: 100%;
+        cursor: pointer;
+        transition: var(--transition-time);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.319);
+        color: white;
+        text-decoration: none;
+    }
+        #events-list .event:hover{
+            background-color: rgb(var(--background-color-1));
+        }
+
+        #events-list .event > * {
+            flex: 1 1;
+        }
+
+        #events-list .event-status {
+            padding: 5px 10px;
+            --status-color: rgb(19, 105, 99);
+            background-color: var(--status-color);
+            display: inline-flex;
+            font-weight: 800;
+            font-size: 11px;
+            letter-spacing: 1px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.319);
+            border-radius: 5px;
+            line-height: 1em;
+            text-transform: uppercase;
+        }
+            #events-list .event-status.pending{
+                color: black;
+                --status-color: rgb(255, 219, 16);
+            }

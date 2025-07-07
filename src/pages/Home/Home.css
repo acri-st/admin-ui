@@ -1,0 +1,51 @@
+#home-navigation{
+    display: flex;
+    gap: 20px;
+}
+
+    .home-navigation-section{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .home-navigation-section h2{
+        /* flex:1 0 100%; */
+        width: 100%;
+        font-size: 25px;
+        letter-spacing: 4px;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.082);
+        padding:0px 10px;
+        padding-bottom: 10px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        font-weight: 100;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+
+.admin-home-navigation{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: none;
+
+    text-transform: uppercase;
+    
+    letter-spacing: 5px;
+    background-color: rgb(var(--background-color-1));
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 20px;
+    margin:10px;
+    transition: var(--transition-time);
+}
+    .admin-home-navigation:hover{
+        background: linear-gradient(45deg, rgb(var(--theme-color-1)) 0%, rgb(var(--theme-color-2)) 100%);
+    }

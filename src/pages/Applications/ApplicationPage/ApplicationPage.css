@@ -1,0 +1,25 @@
+
+
+.application-operating-systems{
+
+}
+
+    .application-operating-systems .tabs{
+        flex-wrap: wrap;
+    }
+.application-operating-systems{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.add-operating-system{
+    display: flex;
+    gap:10px;
+}
+
+.update-operating-system{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}

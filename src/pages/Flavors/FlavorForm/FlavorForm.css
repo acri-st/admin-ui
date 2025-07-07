@@ -1,0 +1,13 @@
+
+    .flavor-form-content{
+        flex:1;
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        gap:5px;
+    }
+        .flavor-form-content .form-field{
+            margin-bottom: 0px;
+            flex: 0 0 auto;
+            width: calc(50% - 10px);
+        }

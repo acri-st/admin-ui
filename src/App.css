@@ -1,0 +1,153 @@
+#admin-login{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fixed-page-content{
+    flex-direction: row;
+    flex: 1;
+    min-height: 0px;
+    overflow: auto;
+}
+    #admin-login p{
+        font-size: 18px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    #admin-login .button{
+        display: inline-flex;
+        justify-self: center;
+        margin:0px auto;
+    }
+
+/*  =============================================
+    NAVIGATION
+    ============================================= */
+
+#admin-navigation{
+    margin:10px;
+    background-color: rgb(0,0,0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+}
+    #admin-nav-title{
+        text-align: center;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.064);
+        padding-bottom: 10px;
+        font-size: 18px;
+        line-height: 1em;
+        letter-spacing: 4px;
+        /* font-weight: 800; */
+    }
+
+    #admin-routes{
+        display: flex;
+        flex-direction: column;
+        margin-top:50px;
+        gap:10px;
+    }
+    
+        #admin-routes h2{
+            font-size: 16px;
+            letter-spacing: 4px;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.082);
+            margin-bottom: 10px;
+            padding:0px 10px;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            font-weight: 100;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .admin-route{
+            text-decoration: none;
+            color:white;
+            padding: 10px 20px;
+            font-size: 14px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            transition: var(--transition-time);
+            border-radius: 5px;
+        }
+            .admin-route.active{
+                background:linear-gradient(18deg, rgb(var(--theme-color-2)), rgb(var(--theme-color-1)) );
+            }
+
+    #admin-auth{
+        margin-top:auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+        #login-user{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+            #login-user-text{
+                font-size: 11px;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+            }
+            #login-user-username{
+                font-size: 18px;
+                letter-spacing: 2px;
+            }
+            
+        #admin-auth .button{
+            width: 100%;
+        }
+
+/*  =============================================
+    CONTENT
+    ============================================= */
+#admin-content{
+    flex:1 1;
+    min-height: 0px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+    .scroll-content{
+        display: flex;
+        flex-direction: column;
+        flex: 1 1;
+        overflow: auto;
+    }
+
+    .operation-bar{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        justify-content: center;
+        padding: 10px;
+    }
+
+.form-field-value{
+    background-color: rgb(var(--background-color-1));
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
+    line-height: 1.5em;
+}
+.row{
+    display: flex;
+    gap:10px;
+}
+.row-2{
+    flex-wrap: wrap;
+}
+
+    .row-2 > *{
+        flex: 0 0 auto;
+        width: calc(50% - 10px);
+    }

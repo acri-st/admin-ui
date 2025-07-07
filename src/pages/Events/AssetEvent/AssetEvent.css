@@ -1,0 +1,12 @@
+.event-reasons{
+    margin-top:10px;
+    padding: 10px;
+    background-color: rgb(var(--background-color-3) ,0.8);
+    width: 100%;
+}
+    .event-reasons ul{
+        padding-left: 20px;
+    }
+        .event-reasons .reason{
+            color: orange;
+        }

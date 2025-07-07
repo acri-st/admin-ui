@@ -1,0 +1,58 @@
+#flavors-list{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+
+
+    #flavors-list .flavor-item{
+        flex: 0 0 auto;
+        width: calc(33.3% - 10px);
+        position: relative;
+    }
+        #flavors-list .flavor-item a{
+            text-decoration: none;
+            color: var(--font-color);
+        }
+    #delete-flavor{
+        position: absolute;
+        top:-5px;
+        right:-5px;
+    }
+
+
+.flavor-card{
+    display: flex;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    gap:10px;
+}
+    .flavor-card-content{
+        border-radius: 5px;
+        background-color: rgb(var(--background-color-1),0.5);
+        border: 1px solid rgb(var(--theme-color-1),0.5);
+        flex:1;
+        display: flex;
+        padding: 20px 20px;
+        padding-right: 30px;
+        justify-content: space-between;
+        gap:10px;
+        transition: 0.2s;
+    }
+        .flavor-card-content:hover{
+            background-color: rgb(var(--background-color-1),0.7);
+            border: 1px solid rgb(var(--theme-color-1),0.7);
+        }
+        .flavor-card-name{
+            color: var(--font-color);
+            font-size: 16px;
+        }
+        .flavor-card-gui{
+            display: flex;
+            line-height: 1em;
+            align-items: center;
+            gap:10px;
+            font-size: 12px;
+            /* justify-content: center; */
+        }

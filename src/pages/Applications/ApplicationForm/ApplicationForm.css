@@ -1,0 +1,38 @@
+
+.application-form-main-content{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+    .application-form-image-content{
+        display: flex;
+    }
+        .icon-preview{
+            height: auto;
+            width: 300px;
+        }
+            .icon-preview img{
+                height: 100%;
+                width: 100%;
+            }
+    .application-form-content{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+    }
+        .application-form-content .form-field{
+            margin-bottom: 0px;
+        }
+
+
+.application-operating-systems{
+    margin-top:30px;
+}
+
+
+.application-operating-systems-tabs{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
