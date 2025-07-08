@@ -10,7 +10,7 @@ Open Application
     New Browser    chromium    headless=True
     New Context    viewport={'width': 1920, 'height': 1080}    ignoreHTTPSErrors=${True}
     New Page    ${url}
-    Wait For Elements State    css=#navigation    visible
+    Wait For Elements State    css=#loading-page    hidden
 
 CheckField
     [Arguments]    ${element}    ${attribute}    ${expected}
