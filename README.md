@@ -1,4 +1,4 @@
-# DESP-AAS Admin UI
+# Admin UI
 
 
 ## Table of Contents
@@ -9,15 +9,12 @@
 - [Development](#development)
 - [Testing](#testing)
 - [Contributing](#contributing)
-- [Deployment](#deployment)
-- [License](#license)
-- [Support](#support)
 
 ## Introduction
 
 ### What is the Admin UI?
 
-The admin UI is a web application that interfaces with the microservices that comprise the DESP-AAS for administrators for
+The admin UI is a web application that interfaces with the microservices that comprise the collaborative platform and the sandbox for administrators to manipulate and moderate.
 
 ## Prerequisites
 
@@ -104,4 +101,4 @@ make test
 
 ## Contributing
 
-Check out the [CONTRIBUTING.md](https://github.com/acri-st/admin-ui/blob/development/CONTRIBUTING.md) for more details on how to contribute.
+Check out the [CONTRIBUTING.md](CONTRIBUTING.md) for more details on how to contribute.
