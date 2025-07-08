@@ -12,6 +12,41 @@
 
 ## Introduction
 
+
+###  What is the Collaborative platform?
+
+Collaborative platform allows users to create or reference different assets in a comprehensive catalog in earth obervation and geospatial analysis.
+
+The Microservices that make up the Collaborative platform project are the following: 
+- **Auth** Authentication service tu authenticate users.
+- **Asset management** Asset management system.
+- **Recommendation** Asset recommendation system.
+- **Search** Asset search system.
+- **Post** Post message management system.
+- **Storage** File and Git management system.
+- **Discussions** Discussion management system.
+- **Geo extractor** Asset geographic coordniate extraction system.
+- **Notification** Notification management system.
+- **Moderation** Moderation management system.
+- **Auto moderation management** Automatic moderation management system.
+- **Moderation handling management** Moderation handling system.
+
+![Collaborative platform Architecture](https://github.com/acri-st/collaborative-ui/blob/main/docs/architecture.png?raw=true)
+
+
+###  What is the Sandbox?
+
+Sandbox is a service that allows users to develop applications and models using cloud based services and to ease the deployment to the collaborative platform.
+
+The Microservices that make up the Sandbox project are the following: 
+- **Auth** Authentication service tu authenticate users.
+- **Project management** Project management system.
+- **VM management** manages the virtual machines for the projects. These virtual machines are where the user manages their project and develops.
+- **Storage** Manages the project git files.
+
+![Sandbox UI Architecture](https://github.com/acri-st/sandbox-ui/blob/main/docs/architecture.png?raw=true)
+
+
 ### What is the Admin UI?
 
 The admin UI is a web application that interfaces with the microservices that comprise the collaborative platform and the sandbox for administrators to manipulate and moderate.
